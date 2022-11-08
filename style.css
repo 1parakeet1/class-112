@@ -40,3 +40,7 @@ label{
   padding: 8px;
   background-color: chartreuse;
 }
+
+#update_emoji, #update_emoji2{
+  font-size: 25px;
+}
