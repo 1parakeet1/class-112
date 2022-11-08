@@ -27,7 +27,7 @@ function takeSnapshot(){
         synth = window.speechSynthesis;
         speak_1 = "The first prediction is-"+prediction_1;
         speak_2 = "The second prediction is-"+prediction_2;
-        utterthis = new SpeechSynthesisUtterance(speak1 + speak_2);
+        utterthis = new SpeechSynthesisUtterance(speak_1 + speak_2);
         synth.speak(utterthis);
         
     }
